@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>  
+    <div class="container">
+      <!-- Creación de la barra de navegación-->   
+      <nav>
+       <div class="nav-wrapper">
+         <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="brand-logo">SENA</a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Formulario</a></li>
+            <li><a href="contact.html">Contactos</a></li>
+           </ul>
+       </div>
+      </nav> 
+      <!-- Creación del formulario-->   
+      <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <!-- Input type text nameUser-->  
+                <div class="input-field col s8">
+                  <input type="text" id="user_name" class="validate">
+                  <label for="user_name">Nombre</label>
+                </div>
+                <!-- Input type text agedUser-->  
+                <div class="input-field col s4">
+                    <input type="number" id="user_age" class="validate">
+                    <label for="user_age">Edad</label>
+                </div>
+            </div>   
+            <div class="row">  
+                <!-- Input type text emailUser-->  
+                <div class="input-field">
+                    <input type="number" id="user_email" class="validate">
+                    <label for="user_email">Correo electrónico</label>
+                </div>
+            </div>    
+        </form>
+      </div>      
+    </div>   
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>
